@@ -4,47 +4,19 @@ import { FiLock, FiUploadCloud, FiShield, FiGlobe, FiClock, FiUsers } from 'reac
 import './Home.css';
 
 const Home = () => {
-  const features = [
-    {
-      icon: <FiLock size={32} />,
-      title: 'End-to-End Encryption',
-      description: 'Your files are encrypted before they leave your device and can only be decrypted by you.'
-    },
-    {
-      icon: <FiUploadCloud size={32} />,
-      title: 'Easy File Management',
-      description: 'Upload, organize, and manage your files with our intuitive interface.'
-    },
-    {
-      icon: <FiShield size={32} />,
-      title: 'Secure Sharing',
-      description: 'Share files securely with end-to-end encrypted links and access controls.'
-    },
-    {
-      icon: <FiGlobe size={32} />,
-      title: 'Access Anywhere',
-      description: 'Access your files from any device, anywhere in the world.'
-    },
-    {
-      icon: <FiClock size={32} />,
-      title: 'Version History',
-      description: 'Track changes and restore previous versions of your files.'
-    },
-    {
-      icon: <FiUsers size={32} />,
-      title: 'Team Collaboration',
-      description: 'Work together securely with your team on shared documents.'
-    }
-  ];
-
+  
   return (
     <div className="home-container">
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Secure Cloud Storage for Your Digital Life</h1>
+          <h1 className="hero-title">Free Security Check for Your Digital Life</h1>
           <p className="hero-subtitle">
-            Store, share, and collaborate on your files with end-to-end encryption and complete privacy.
+            Scan for malicious files, check for data leaks, and secure your digital assets with Nepal Cyber Resilience.
+          </p>
+          <p className="hero-description">
+            Our platform offers comprehensive security solutions to protect your files and personal information.
+            Join us today and take the first step towards a safer digital experience.
           </p>
           <div className="hero-cta">
             <Link to="/register" className="btn btn-primary">
@@ -64,28 +36,13 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="features">
-        <div className="section-header">
-          <h2>Why Choose Nepal Cyber Resilience?</h2>
-          <p>Your security is our top priority</p>
-        </div>
-        <div className="features-grid">
-          {features.map((feature, index) => (
-            <div key={index} className="feature-card">
-              <div className="feature-icon">{feature.icon}</div>
-              <h3 className="feature-title">{feature.title}</h3>
-              <p className="feature-description">{feature.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      
 
       {/* CTA Section */}
       <section className="cta">
         <div className="cta-content">
-          <h2>Ready to secure your files?</h2>
-          <p>Join thousands of users who trust Nepal Cyber Resilience with their data.</p>
+          <h2>Ready to Start</h2>
+          <p>Join thousands of users who trust Nepal Cyber Resilience</p>
           <Link to="/register" className="btn btn-primary btn-lg">
             Create Free Account
           </Link>

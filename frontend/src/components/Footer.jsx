@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-md-4 mb-4 mb-md-0">
             <h5 className="text-uppercase text-white">Nepal Cyber Resilience</h5>
             <p className="text-light" style={{ opacity: 0.9 }}>
-              Your trusted platform for end-to-end encrypted file storage and sharing.
+              Don't Fear when Nepal Cyber Resillence is Here!
             </p>
             <div className="d-flex">
               <a href="#" className="text-white me-3">
@@ -60,10 +60,10 @@ const Footer = () => {
                 <a href="#" className="text-light text-decoration-none" style={{ opacity: 0.9 }}>Terms of Service</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-light text-decoration-none" style={{ opacity: 0.9 }}>Encryption Whitepaper</a>
+                <a href="#" className="text-light text-decoration-none" style={{ opacity: 0.9 }}>Whitepaper</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-light text-decoration-none" style={{ opacity: 0.9 }}>Security Audit</a>
+                <a href="#" className="text-light text-decoration-none" style={{ opacity: 0.9 }}>Security Check</a>
               </li>
             </ul>
           </div>
@@ -73,12 +73,17 @@ const Footer = () => {
             <h5 className="text-uppercase text-white">CONTACT US</h5>
             <ul className="list-unstyled text-light" style={{ opacity: 0.9 }}>
               <li className="mb-2">
-                <i className="bi bi-envelope me-2"></i> 240441@softwarica.edu.np
+                <i className="bi bi-envelope me-2"></i> kushipudasaini@softwarica.edu.np
               </li>
               <li className="mb-2">
-                <i className="bi bi-telephone me-2"></i> +977 980-9437032
+                <i className="bi bi-telephone me-2"></i> +977 984-1234567
               </li>
-              
+              <li className="mb-2">
+                <i className="bi bi-geo-alt me-2"></i> Kathmandu, Nepal
+              </li>
+              <li className="mb-2">
+                <i className="bi bi-clock me-2"></i> Mon - Fri: 9:00 AM - 6:00 PM
+              </li>
             </ul>
           </div>
         </div>
@@ -89,7 +94,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start">
             <p className="small text-light mb-0" style={{ opacity: 0.9 }}>
-              &copy; {new Date().getFullYear()} Yogendra Badu. All rights reserved.
+              &copy; {new Date().getFullYear()} Khushi Pudasaini. All rights reserved.
             </p>
           </div>
           <div className="col-md-6 text-center text-md-end">

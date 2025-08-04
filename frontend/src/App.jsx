@@ -6,8 +6,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Blog from './components/Blog';
-import ArticleDetail from './components/ArticleDetail';
 import Login from './components/Login';
 import Register from './components/Register';
 import ResetPassword from './components/ResetPassword';
@@ -16,6 +14,7 @@ import FileUpload from './components/Upload';
 import Profile from './components/Profile';
 import Quiz from './components/Quiz';
 import PasswordChecker from './components/PasswordChecker';
+import Footer from './components/Footer';
 // Placeholder components for new features
 const ThreatAlerts = () => <div className="py-10 text-center"><h2>Threat Alert Subscription (Coming Soon)</h2><p>Part of Nepal Cyber Resilience</p></div>;
 const PrivateRoute = ({ children }) => {
@@ -57,8 +56,6 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About />} />
   <Route path="/contact" element={<Contact />} />
-  <Route path="/blog" element={<Blog />} />
-  <Route path="/blog/:id" element={<ArticleDetail />} />
   <Route path="/login" element={<Login />} />
   <Route path="/register" element={<Register />} />
   <Route path="/reset-password" element={<ResetPassword />} />
@@ -92,6 +89,7 @@ function App() {
 </Routes>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
